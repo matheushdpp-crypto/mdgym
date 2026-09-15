@@ -1,5 +1,5 @@
-name: gymmane
-description: "GymMane — an offline, ad-free gym log for Android."
+name: mdgym
+description: "MDGym — an offline, ad-free gym log for Android."
 publish_to: 'none'
 version: 1.2.0+3
 

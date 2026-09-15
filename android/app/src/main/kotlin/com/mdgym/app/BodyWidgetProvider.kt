@@ -1,4 +1,4 @@
-package com.gymmane.app
+package com.mdgym.app
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -9,7 +9,7 @@ import android.graphics.BitmapFactory
 import android.widget.RemoteViews
 import es.antonborri.home_widget.HomeWidgetProvider
 
-class TodayWidgetProvider : HomeWidgetProvider() {
+class BodyWidgetProvider : HomeWidgetProvider() {
     override fun onUpdate(
         context: Context,
         appWidgetManager: AppWidgetManager,
@@ -17,8 +17,8 @@ class TodayWidgetProvider : HomeWidgetProvider() {
         widgetData: SharedPreferences
     ) {
         appWidgetIds.forEach { widgetId ->
-            val views = RemoteViews(context.packageName, R.layout.widget_today).apply {
-                val path = widgetData.getString("today_img", null)
+            val views = RemoteViews(context.packageName, R.layout.widget_body).apply {
+                val path = widgetData.getString("body_img", null)
                 if (path != null) {
                     val bmp = BitmapFactory.decodeFile(path)
                     if (bmp != null) setImageViewBitmap(R.id.widget_image, bmp)

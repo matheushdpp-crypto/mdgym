@@ -1,4 +1,4 @@
-package com.gymmane.app
+package com.mdgym.app
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager

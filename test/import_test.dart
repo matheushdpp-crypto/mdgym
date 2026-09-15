@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/services/workout_import.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:mdgym/services/workout_import.dart';
+import 'package:mdgym/state/fit_state.dart';
 
 const _hevy = '''
 "title","start_time","end_time","description","exercise_title","superset_id","exercise_notes","set_index","set_type","weight_kg","reps","distance_km","duration_seconds","rpe"
@@ -37,7 +37,7 @@ Date,Exercise,Category,Weight (kg),Weight (lbs),Reps,Distance,Distance Unit,Time
 2024-01-15,Bench Press,Chest,100.00,220.46,10,,,00:03:45,Good form,wr
 ''';
 
-const _gymmane = '''
+const _mdgym = '''
 date,exercise,muscle,set,reps,weight_kg,volume_kg,est_1rm_kg
 2024-01-16,Barbell Bench Press,chest,1,10,60,600,80
 ''';
@@ -102,7 +102,7 @@ void main() {
       expect(detectFormat(_strongPlain), ImportFormat.strong);
       expect(detectFormat(_fitnotesPlain), ImportFormat.fitnotes);
       expect(detectFormat(_fitnotesUnits), ImportFormat.fitnotes);
-      expect(detectFormat(_gymmane), ImportFormat.gymmane);
+      expect(detectFormat(_mdgym), ImportFormat.mdgym);
       expect(detectFormat('a,b,c\n1,2,3'), ImportFormat.unknown);
       expect(detectFormat(_generic), ImportFormat.generic);
       expect(detectFormat(_genericDe), ImportFormat.generic);
@@ -114,7 +114,7 @@ void main() {
       expect(needsUnitChoice(_fitnotesPlain), isTrue);
       expect(needsUnitChoice(_fitnotesUnits), isFalse);
       expect(needsUnitChoice(_hevy), isFalse);
-      expect(needsUnitChoice(_gymmane), isFalse);
+      expect(needsUnitChoice(_mdgym), isFalse);
     });
   });
 
@@ -189,8 +189,8 @@ void main() {
       expect(r.sessions.single.exercises.single.sets.single.weightKg, 100);
     });
 
-    test('GymMane propio', () {
-      final r = parseImport(_gymmane);
+    test('MDGym propio', () {
+      final r = parseImport(_mdgym);
       expect(r.sessions.single.exercises.single.sets.single.weightKg, 60);
     });
 
@@ -225,7 +225,7 @@ void main() {
       expect(r.weights.single.kg, closeTo(81.65, 0.05));
     });
 
-    test('no confunde un backup de GymMane con uno de openGym', () {
+    test('no confunde un backup de MDGym con uno de openGym', () {
       expect(detectFormat('{"sessions": [], "routines": []}'), ImportFormat.unknown);
     });
   });

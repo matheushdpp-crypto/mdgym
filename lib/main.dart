@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
-import 'app/gymmane_app.dart';
+import 'app/mdgym_app.dart';
 import 'services/alarm_store.dart';
 import 'services/home_widget_bridge.dart';
 import 'services/local_store.dart';
@@ -31,7 +31,7 @@ Future<void> main() async {
   fit.syncTrainReminder();
 
   fit.onWidgetsShouldUpdate = HomeWidgetBridge.update;
-  runApp(const GymManeApp());
+  runApp(const MDGymApp());
 
   WidgetsBinding.instance.addPostFrameCallback((_) => HomeWidgetBridge.update());
 }

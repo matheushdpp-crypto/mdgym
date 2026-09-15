@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="../screenshots/banner-en.png" alt="GymMane — 举铁 · 记录 · 蜕变" width="860" />
+<img src="../screenshots/banner-en.png" alt="MDGym — 举铁 · 记录 · 蜕变" width="860" />
 
 <br/>
 
-<img src="../screenshots/icon.png" width="94" alt="GymMane" />
+<img src="../screenshots/icon.png" width="94" alt="MDGym" />
 
-# GymMane
+# MDGym
 
 ### 一款暗调、完全离线的 Android 力量训练记录应用
 
@@ -22,22 +22,22 @@
   <img alt="License GPLv3" src="https://img.shields.io/badge/Code-GPLv3-C2410C?style=flat&logo=gnu&logoColor=white" />
   <img alt="Art CC BY-SA 4.0" src="https://img.shields.io/badge/Art-CC%20BY--SA%204.0-8A6B41?style=flat&logo=creativecommons&logoColor=white" />
   <img alt="No ads, no tracking" src="https://img.shields.io/badge/No%20ads%20%C2%B7%20No%20tracking-22C55E?style=flat&logo=shield&logoColor=white" />
-  <a href="https://github.com/InlitX/GymMane/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/InlitX/GymMane?style=flat&color=D9A184&labelColor=181717&logo=github" /></a>
+  <a href="https://github.com/matheushdpp-crypto/mdgym/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/matheushdpp-crypto/mdgym?style=flat&color=D9A184&labelColor=181717&logo=github" /></a>
 </p>
 
 <p>
-  <a href="https://trendshift.io/repositories/107197?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-107197" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/107197/daily?language=Dart" alt="InlitX%2FGymMane | Trendshift" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/107197?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-107197" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/107197/daily?language=Dart" alt="InlitX%2FMDGym | Trendshift" width="250" height="55"/></a>
 </p>
 
 <br/>
 
-<a href="https://f-droid.org/packages/com.gymmane.app/"><img alt="Get it on F-Droid" src="../badges/get-it-on-fdroid.png" height="60" /></a>
+<a href="https://f-droid.org/packages/com.mdgym.app/"><img alt="Get it on F-Droid" src="../badges/get-it-on-fdroid.png" height="60" /></a>
 &nbsp;
-<a href="https://apt.izzysoft.de/fdroid/index/apk/com.gymmane.app?repo=main"><img alt="Get it on IzzyOnDroid" src="../badges/get-it-on-izzyondroid.png" height="60" /></a>
+<a href="https://apt.izzysoft.de/fdroid/index/apk/com.mdgym.app?repo=main"><img alt="Get it on IzzyOnDroid" src="../badges/get-it-on-izzyondroid.png" height="60" /></a>
 &nbsp;
-<a href="https://github.com/InlitX/GymMane/releases"><img alt="Get it on GitHub" src="../badges/get-it-on-github.png" height="60" /></a>
+<a href="https://github.com/matheushdpp-crypto/mdgym/releases"><img alt="Get it on GitHub" src="../badges/get-it-on-github.png" height="60" /></a>
 &nbsp;
-<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22com.gymmane.app%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FInlitX%2FGymMane%22%2C%22author%22%3A%22InlitX%22%2C%22name%22%3A%22GymMane%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22filterReleaseNotesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22verifyLatestTag%5C%22%3Afalse%2C%5C%22dontSortReleasesList%5C%22%3Afalse%2C%5C%22useLatestAssetDateAsReleaseDate%5C%22%3Afalse%2C%5C%22trackOnly%5C%22%3Afalse%2C%5C%22versionExtractionRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22matchGroupToUse%5C%22%3A%5C%22%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22releaseDateAsVersion%5C%22%3Afalse%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22invertAPKFilter%5C%22%3Afalse%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22appName%5C%22%3A%5C%22%5C%22%2C%5C%22shizukuPretendToBeGooglePlay%5C%22%3Afalse%2C%5C%22allowInsecure%5C%22%3Afalse%2C%5C%22exemptFromBackgroundUpdates%5C%22%3Afalse%2C%5C%22skipUpdateNotifications%5C%22%3Afalse%2C%5C%22about%5C%22%3A%5C%22GymMane%20is%20an%20open%20source%20gym%20log%20for%20Android.%20Pick%20your%20muscles%20on%20a%20body%20map%2C%20log%20your%20sets%2C%20and%20watch%20your%20numbers%20grow.%20No%20accounts%2C%20no%20ads%2C%20no%20tracking%2C%20no%20internet%20permission.%5C%22%7D%22%2C%22overrideSource%22%3Anull%7D"><img alt="Get it on Obtainium" src="../badges/get-it-on-obtainium.png" height="60" /></a>
+<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22com.mdgym.app%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FInlitX%2FMDGym%22%2C%22author%22%3A%22InlitX%22%2C%22name%22%3A%22MDGym%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22filterReleaseNotesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22verifyLatestTag%5C%22%3Afalse%2C%5C%22dontSortReleasesList%5C%22%3Afalse%2C%5C%22useLatestAssetDateAsReleaseDate%5C%22%3Afalse%2C%5C%22trackOnly%5C%22%3Afalse%2C%5C%22versionExtractionRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22matchGroupToUse%5C%22%3A%5C%22%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22releaseDateAsVersion%5C%22%3Afalse%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22invertAPKFilter%5C%22%3Afalse%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22appName%5C%22%3A%5C%22%5C%22%2C%5C%22shizukuPretendToBeGooglePlay%5C%22%3Afalse%2C%5C%22allowInsecure%5C%22%3Afalse%2C%5C%22exemptFromBackgroundUpdates%5C%22%3Afalse%2C%5C%22skipUpdateNotifications%5C%22%3Afalse%2C%5C%22about%5C%22%3A%5C%22MDGym%20is%20an%20open%20source%20gym%20log%20for%20Android.%20Pick%20your%20muscles%20on%20a%20body%20map%2C%20log%20your%20sets%2C%20and%20watch%20your%20numbers%20grow.%20No%20accounts%2C%20no%20ads%2C%20no%20tracking%2C%20no%20internet%20permission.%5C%22%7D%22%2C%22overrideSource%22%3Anull%7D"><img alt="Get it on Obtainium" src="../badges/get-it-on-obtainium.png" height="60" /></a>
 
 <sub>
   <a href="#-核心特性">✨ 核心特性</a> ·
@@ -104,7 +104,7 @@
 
 ## 👋 项目简介
 
-GymMane 是一款开源力量训练记录工具。在交互式人体肌肉图谱上直观点击你要训练的部位，按组记录次数与负重，伴随清晰明确的间歇闹铃声高效休息，所有数据分析 — 包括容量、个人纪录（PR）、打卡连胜及肌群分布，全部如实反映**你自己的真实训练**。绝无虚饰。
+MDGym 是一款开源力量训练记录工具。在交互式人体肌肉图谱上直观点击你要训练的部位，按组记录次数与负重，伴随清晰明确的间歇闹铃声高效休息，所有数据分析 — 包括容量、个人纪录（PR）、打卡连胜及肌群分布，全部如实反映**你自己的真实训练**。绝无虚饰。
 
 > [!TIP]
 > **完全属于你。** 无账号、无广告、无订阅 — 甚至**没有网络权限**。每一条训练记录都安全地保存在你的本地手机中。
@@ -192,7 +192,7 @@ GymMane 是一款开源力量训练记录工具。在交互式人体肌肉图谱
 
 ## 📦 从其他应用迁移？
 
-随心带着你的历史数据出发。GymMane 支持读取 **Hevy** 与 **Strong** 的训练及身体数据导出文件（CSV 或数据压缩包），以及 **FitNotes** 的完整备份（SQLite 数据库）。导入时会自动匹配动作库，已记录的条目会自动跳过去重。
+随心带着你的历史数据出发。MDGym 支持读取 **Hevy** 与 **Strong** 的训练及身体数据导出文件（CSV 或数据压缩包），以及 **FitNotes** 的完整备份（SQLite 数据库）。导入时会自动匹配动作库，已记录的条目会自动跳过去重。
 
 | 来源应用 | 导入所需文件 |
 |---|---|
@@ -207,7 +207,7 @@ GymMane 是一款开源力量训练记录工具。在交互式人体肌肉图谱
 ## 🔒 隐私保证
 
 > [!IMPORTANT]
-> GymMane **绝不包含任何分析统计代码、广告 SDK 或联网代码**。应用在 Android 层面完全没有申请 `INTERNET` 网络权限，因此在物理机制上绝不可能向外发送你的任何训练与个人数据。唯一的外部行为是你在应用内主动点击的网页链接。
+> MDGym **绝不包含任何分析统计代码、广告 SDK 或联网代码**。应用在 Android 层面完全没有申请 `INTERNET` 网络权限，因此在物理机制上绝不可能向外发送你的任何训练与个人数据。唯一的外部行为是你在应用内主动点击的网页链接。
 
 应用所申请的全部权限用途说明：
 
@@ -222,7 +222,7 @@ GymMane 是一款开源力量训练记录工具。在交互式人体肌肉图谱
 
 ## 🌍 国际化与翻译
 
-GymMane 目前已支持英语、西班牙语、葡萄牙语、意大利语、俄语和简体中文，热烈欢迎社区贡献更多语言。翻译资源位于 [lib/l10n](lib/l10n) 目录下的标准 ARB 文件中 — 每种语言一个独立文件。您可以在 GitHub 上直接编辑对应文件并提交 Pull Request。
+MDGym 目前已支持英语、西班牙语、葡萄牙语、意大利语、俄语和简体中文，热烈欢迎社区贡献更多语言。翻译资源位于 [lib/l10n](lib/l10n) 目录下的标准 ARB 文件中 — 每种语言一个独立文件。您可以在 GitHub 上直接编辑对应文件并提交 Pull Request。
 
 完整翻译指南参见 **TRANSLATING.md**。
 
@@ -231,8 +231,8 @@ GymMane 目前已支持英语、西班牙语、葡萄牙语、意大利语、俄
 ## 🛠️ 编译构建
 
 ```bash
-git clone https://github.com/InlitX/GymMane.git
-cd GymMane
+git clone https://github.com/matheushdpp-crypto/mdgym.git
+cd MDGym
 flutter pub get
 flutter test
 flutter build apk --release
@@ -250,7 +250,7 @@ flutter build apk --release
 
 <div align="center">
 
-GymMane 永久免费、开源且无任何广告。
+MDGym 永久免费、开源且无任何广告。
 
 如果它能激励你更规律地走向健身房，这就是对本项目最好的肯定。如果你也想为项目贡献一份力量，点一颗 Star、提供一份翻译或提交一份清晰的 Bug 反馈，都与请喝一杯咖啡同样珍贵。
 
@@ -289,7 +289,7 @@ GymMane 永久免费、开源且无任何广告。
 | 动作插图 (`assets/art/`) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | 字体资源 | SIL Open Font License |
 
-训练动作插图源自 Bryl Lim 开发的 [Workout Guide](https://github.com/bryllim/workout-guide)，基于 [Everkinetic](https://github.com/everkinetic/data) 的体态艺术作品制作。Workout Guide 的*代码*采用 MIT 协议，但其艺术图集采用 CC BY-SA 4.0 协议 — 因此 GymMane 的副本亦遵循 CC BY-SA 4.0 协议并完整保留署名。GymMane 将其绘制为矢量图形并随主题着色；详情参见 **CREDITS.md**。
+训练动作插图源自 Bryl Lim 开发的 [Workout Guide](https://github.com/bryllim/workout-guide)，基于 [Everkinetic](https://github.com/everkinetic/data) 的体态艺术作品制作。Workout Guide 的*代码*采用 MIT 协议，但其艺术图集采用 CC BY-SA 4.0 协议 — 因此 MDGym 的副本亦遵循 CC BY-SA 4.0 协议并完整保留署名。MDGym 将其绘制为矢量图形并随主题着色；详情参见 **CREDITS.md**。
 
 ---
 
@@ -303,10 +303,10 @@ GymMane 永久免费、开源且无任何广告。
 
 ## Star 增长趋势
 
-<a href="https://www.star-history.com/?repos=inlitx%2Fgymmane&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=inlitx%2Fmdgym&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=inlitx/gymmane&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=inlitx/gymmane&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=inlitx/gymmane&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=inlitx/mdgym&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=inlitx/mdgym&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=inlitx/mdgym&type=date&legend=top-left" />
  </picture>
 </a>

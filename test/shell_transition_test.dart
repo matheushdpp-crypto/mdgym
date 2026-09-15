@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/app/gymmane_app.dart';
-import 'package:gymmane/l10n/l10n.dart';
-import 'package:gymmane/models/workout.dart';
-import 'package:gymmane/screens/home_screen.dart';
-import 'package:gymmane/services/local_store.dart';
-import 'package:gymmane/services/progress_reminder.dart';
-import 'package:gymmane/state/fit_state.dart';
-import 'package:gymmane/widgets/award_celebration.dart';
+import 'package:mdgym/app/mdgym_app.dart';
+import 'package:mdgym/l10n/l10n.dart';
+import 'package:mdgym/models/workout.dart';
+import 'package:mdgym/screens/home_screen.dart';
+import 'package:mdgym/services/local_store.dart';
+import 'package:mdgym/services/progress_reminder.dart';
+import 'package:mdgym/state/fit_state.dart';
+import 'package:mdgym/widgets/award_celebration.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -37,7 +37,7 @@ void main() {
   }
 
   testWidgets('the screen being left is gone before the new one shows up', (tester) async {
-    await tester.pumpWidget(const GymManeApp());
+    await tester.pumpWidget(const MDGymApp());
     await tester.pump();
 
     fit.goProgress();
@@ -52,7 +52,7 @@ void main() {
   });
 
   testWidgets('a medal waits before taking over the screen', (tester) async {
-    await tester.pumpWidget(const GymManeApp());
+    await tester.pumpWidget(const MDGymApp());
     await tester.pump();
 
     fit.refreshAwards();
@@ -71,7 +71,7 @@ void main() {
   });
 
   testWidgets('medals queue up one after another with a pause in between', (tester) async {
-    await tester.pumpWidget(const GymManeApp());
+    await tester.pumpWidget(const MDGymApp());
     await tester.pump();
 
     fit.sessions.add(LoggedSession(DateTime.now(), 1200, [

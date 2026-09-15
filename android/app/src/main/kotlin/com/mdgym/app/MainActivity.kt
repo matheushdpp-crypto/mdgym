@@ -1,4 +1,4 @@
-package com.gymmane.app
+package com.mdgym.app
 
 import android.content.ContentValues
 import android.os.Build
@@ -13,14 +13,14 @@ import java.io.FileOutputStream
 class MainActivity : FlutterActivity() {
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
-        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "gymmane/gallery")
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "mdgym/gallery")
             .setMethodCallHandler { call, result ->
                 if (call.method != "savePng") {
                     result.notImplemented()
                     return@setMethodCallHandler
                 }
                 val bytes = call.argument<ByteArray>("bytes")
-                val name = call.argument<String>("name") ?: "gymmane.png"
+                val name = call.argument<String>("name") ?: "mdgym.png"
                 if (bytes == null) {
                     result.error("no-bytes", "missing image", null)
                     return@setMethodCallHandler
@@ -38,7 +38,7 @@ class MainActivity : FlutterActivity() {
             val values = ContentValues().apply {
                 put(MediaStore.Images.Media.DISPLAY_NAME, name)
                 put(MediaStore.Images.Media.MIME_TYPE, "image/png")
-                put(MediaStore.Images.Media.RELATIVE_PATH, "${Environment.DIRECTORY_PICTURES}/GymMane")
+                put(MediaStore.Images.Media.RELATIVE_PATH, "${Environment.DIRECTORY_PICTURES}/MDGym")
                 put(MediaStore.Images.Media.IS_PENDING, 1)
             }
             val resolver = contentResolver
@@ -53,7 +53,7 @@ class MainActivity : FlutterActivity() {
 
         val dir = File(
             Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
-            "GymMane",
+            "MDGym",
         )
         if (!dir.exists() && !dir.mkdirs()) return false
         val file = File(dir, name)

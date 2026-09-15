@@ -2308,7 +2308,7 @@ abstract class AppLocalizations {
   /// No description provided for @importHint.
   ///
   /// In en, this message translates to:
-  /// **'Choose a .zip (or older .json) backup exported from GymMane. This replaces your current data, media included.'**
+  /// **'Choose a .zip (or older .json) backup exported from MDGym. This replaces your current data, media included.'**
   String get importHint;
 
   /// No description provided for @import.
@@ -2377,11 +2377,11 @@ abstract class AppLocalizations {
   /// **'{n, plural, =1{Imported {n} session} other{Imported {n} sessions}}'**
   String importDone(int n);
 
-  /// No description provided for @aboutGymmane.
+  /// No description provided for @aboutMDGym.
   ///
   /// In en, this message translates to:
-  /// **'About GymMane'**
-  String get aboutGymmane;
+  /// **'About MDGym'**
+  String get aboutMDGym;
 
   /// No description provided for @yourProfile.
   ///
@@ -3736,7 +3736,7 @@ abstract class AppLocalizations {
   /// No description provided for @aiIntro.
   ///
   /// In en, this message translates to:
-  /// **'GymMane never talks to an AI. You take your exercise list out, you paste it into whatever assistant you already use, and you bring its answer back in. Nothing leaves the phone on its own.'**
+  /// **'MDGym never talks to an AI. You take your exercise list out, you paste it into whatever assistant you already use, and you bring its answer back in. Nothing leaves the phone on its own.'**
   String get aiIntro;
 
   /// No description provided for @aiStep1.
@@ -3796,7 +3796,7 @@ abstract class AppLocalizations {
   /// No description provided for @awardFirstStepLine.
   ///
   /// In en, this message translates to:
-  /// **'Welcome to GymMane. This one is on the house.'**
+  /// **'Welcome to MDGym. This one is on the house.'**
   String get awardFirstStepLine;
 
   /// No description provided for @awardFirstWorkoutName.

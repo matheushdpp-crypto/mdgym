@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/models/note.dart';
-import 'package:gymmane/models/profile.dart';
-import 'package:gymmane/services/local_store.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:mdgym/models/note.dart';
+import 'package:mdgym/models/profile.dart';
+import 'package:mdgym/services/local_store.dart';
+import 'package:mdgym/state/fit_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {

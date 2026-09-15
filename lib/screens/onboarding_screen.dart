@@ -254,7 +254,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
               const SizedBox(height: 8),
               _in(
                 2,
-                Text('GymMane',
+                Text('MDGym',
                     style: AppTheme.f(44, weight: FontWeight.w800, color: gc.text, height: 1)),
               ),
               const SizedBox(height: 12),

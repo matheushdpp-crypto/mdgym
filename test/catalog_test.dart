@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/catalog/exercise_catalog.dart';
-import 'package:gymmane/models/exercise.dart';
+import 'package:mdgym/catalog/exercise_catalog.dart';
+import 'package:mdgym/models/exercise.dart';
 import 'package:path_drawing/path_drawing.dart';
 
 void main() {

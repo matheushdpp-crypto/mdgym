@@ -2,10 +2,10 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/services/local_store.dart';
-import 'package:gymmane/services/media_store.dart';
-import 'package:gymmane/services/progress_reminder.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:mdgym/services/local_store.dart';
+import 'package:mdgym/services/media_store.dart';
+import 'package:mdgym/services/progress_reminder.dart';
+import 'package:mdgym/state/fit_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -18,7 +18,7 @@ void main() {
     SharedPreferences.setMockInitialValues({});
     await Store.instance.init();
     ProgressReminder.instance.enabled = false;
-    tmp = await Directory.systemTemp.createTemp('gymmane_shots');
+    tmp = await Directory.systemTemp.createTemp('mdgym_shots');
     MediaStore.directory = tmp.path;
     fit.resetAllData();
   });

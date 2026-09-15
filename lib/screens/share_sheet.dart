@@ -59,10 +59,10 @@ class _ShareSheetState extends State<_ShareSheet> {
       if (data == null) return;
 
       final dir = await getTemporaryDirectory();
-      final file = File('${dir.path}/gymmane-${_kind.name}.png');
+      final file = File('${dir.path}/mdgym-${_kind.name}.png');
       await file.writeAsBytes(data.buffer.asUint8List(), flush: true);
       if (!mounted) return;
-      await SharePlus.instance.share(ShareParams(files: [XFile(file.path)], subject: 'GymMane'));
+      await SharePlus.instance.share(ShareParams(files: [XFile(file.path)], subject: 'MDGym'));
     } catch (_) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(t.shareFailed)));

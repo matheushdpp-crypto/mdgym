@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/app/gymmane_app.dart';
-import 'package:gymmane/l10n/l10n.dart';
-import 'package:gymmane/models/workout.dart';
-import 'package:gymmane/state/fit_state.dart';
-import 'package:gymmane/theme/app_colors.dart';
-import 'package:gymmane/theme/app_theme.dart';
-import 'package:gymmane/widgets/share_cards.dart';
+import 'package:mdgym/app/mdgym_app.dart';
+import 'package:mdgym/l10n/l10n.dart';
+import 'package:mdgym/models/workout.dart';
+import 'package:mdgym/state/fit_state.dart';
+import 'package:mdgym/theme/app_colors.dart';
+import 'package:mdgym/theme/app_theme.dart';
+import 'package:mdgym/widgets/share_cards.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -26,7 +26,7 @@ void main() {
 
   Future<void> visit(WidgetTester tester, String route) async {
     fit.route = route;
-    await tester.pumpWidget(const GymManeApp());
+    await tester.pumpWidget(const MDGymApp());
     await tester.pump(const Duration(milliseconds: 400));
     expect(tester.takeException(), isNull, reason: 'la pantalla $route reventó');
   }

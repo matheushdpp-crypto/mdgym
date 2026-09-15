@@ -1294,7 +1294,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get importHint =>
-      'Scegli un backup .zip (o il vecchio .json) esportato da GymMane. Sostituirà i dati attuali, media inclusi.';
+      'Scegli un backup .zip (o il vecchio .json) esportato da MDGym. Sostituirà i dati attuali, media inclusi.';
 
   @override
   String get import => 'Importa';
@@ -1346,7 +1346,7 @@ class AppLocalizationsIt extends AppLocalizations {
   }
 
   @override
-  String get aboutGymmane => 'Su GymMane';
+  String get aboutMDGym => 'Su MDGym';
 
   @override
   String get yourProfile => 'IL TUO PROFILO';
@@ -2089,7 +2089,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get aiIntro =>
-      'GymMane non parla con nessuna IA. Sei tu che esporti la tua lista di esercizi, la incolli nell\'assistente che già usi e riporti dentro la sua risposta. Dal telefono non esce niente da solo.';
+      'MDGym non parla con nessuna IA. Sei tu che esporti la tua lista di esercizi, la incolli nell\'assistente che già usi e riporti dentro la sua risposta. Dal telefono non esce niente da solo.';
 
   @override
   String get aiStep1 =>
@@ -2129,7 +2129,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get awardFirstStepName => 'Primo passo';
 
   @override
-  String get awardFirstStepLine => 'Benvenuto in GymMane. Questa te la regala la casa.';
+  String get awardFirstStepLine => 'Benvenuto in MDGym. Questa te la regala la casa.';
 
   @override
   String get awardFirstWorkoutName => 'Primo allenamento';

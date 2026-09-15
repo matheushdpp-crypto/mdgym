@@ -550,7 +550,7 @@ class FitState extends FitCore
   String planRequestText() {
     final here = allExercises.where(fitsHere).toList();
     final lines = <String>[
-      'GymMane · ${activePlace?.name ?? t.placeAll}',
+      'MDGym · ${activePlace?.name ?? t.placeAll}',
       t.planIntro,
       t.planFormat,
       '{"name": "Push", "exercises": [{"name": "Barbell Bench Press", "sets": 3}]}',

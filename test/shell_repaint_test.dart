@@ -1,10 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/widgets/ui_kit.dart';
-import 'package:gymmane/app/gymmane_app.dart';
-import 'package:gymmane/l10n/l10n.dart';
-import 'package:gymmane/services/local_store.dart';
-import 'package:gymmane/services/progress_reminder.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:mdgym/widgets/ui_kit.dart';
+import 'package:mdgym/app/mdgym_app.dart';
+import 'package:mdgym/l10n/l10n.dart';
+import 'package:mdgym/services/local_store.dart';
+import 'package:mdgym/services/progress_reminder.dart';
+import 'package:mdgym/state/fit_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -28,7 +28,7 @@ void main() {
 
   Future<void> open(WidgetTester tester, String route) async {
     fit.route = route;
-    await tester.pumpWidget(const GymManeApp());
+    await tester.pumpWidget(const MDGymApp());
     await tester.pumpAndSettle();
   }
 

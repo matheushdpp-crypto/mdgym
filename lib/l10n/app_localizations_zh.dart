@@ -1239,7 +1239,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get importBackup => '导入备份';
 
   @override
-  String get importHint => '选择从 GymMane 导出的 .json 备份文件。这将会覆盖你当前的数据。';
+  String get importHint => '选择从 MDGym 导出的 .json 备份文件。这将会覆盖你当前的数据。';
 
   @override
   String get import => '导入';
@@ -1281,7 +1281,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get aboutGymmane => '关于 GymMane';
+  String get aboutMDGym => '关于 MDGym';
 
   @override
   String get yourProfile => '个人资料';
@@ -1997,7 +1997,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get aiRoutine => '用 AI 生成计划';
 
   @override
-  String get aiIntro => 'GymMane 不会和任何 AI 通信。你把动作清单导出，粘贴给你惯用的助手，再把它的回答导回来。手机不会自己往外发任何东西。';
+  String get aiIntro => 'MDGym 不会和任何 AI 通信。你把动作清单导出，粘贴给你惯用的助手，再把它的回答导回来。手机不会自己往外发任何东西。';
 
   @override
   String get aiStep1 => '导出你的动作清单。如果选了场地，只会包含你在那里能做的动作。';
@@ -2029,7 +2029,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get awardFirstStepName => '第一步';
 
   @override
-  String get awardFirstStepLine => '欢迎来到 GymMane，这枚是送你的。';
+  String get awardFirstStepLine => '欢迎来到 MDGym，这枚是送你的。';
 
   @override
   String get awardFirstWorkoutName => '第一次训练';

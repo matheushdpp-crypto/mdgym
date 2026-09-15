@@ -8,7 +8,7 @@ class Store {
   Store._();
   static final Store instance = Store._();
 
-  static const _key = 'gymmane_v1';
+  static const _key = 'mdgym_v1';
   SharedPreferences? _prefs;
 
   Future<void> init() async {

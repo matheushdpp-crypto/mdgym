@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/app/gymmane_app.dart';
-import 'package:gymmane/l10n/l10n.dart';
-import 'package:gymmane/screens/places_screen.dart';
-import 'package:gymmane/services/local_store.dart';
-import 'package:gymmane/state/fit_state.dart';
-import 'package:gymmane/theme/app_theme.dart';
+import 'package:mdgym/app/mdgym_app.dart';
+import 'package:mdgym/l10n/l10n.dart';
+import 'package:mdgym/screens/places_screen.dart';
+import 'package:mdgym/services/local_store.dart';
+import 'package:mdgym/state/fit_state.dart';
+import 'package:mdgym/theme/app_theme.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 Widget _host(Widget Function() screen) => MaterialApp(
@@ -171,7 +171,7 @@ void main() {
   testWidgets('the library screen carries the place chips', (tester) async {
     fit.addPlace('Casa', equipment: {'Dumbbell'});
     fit.route = 'exercises';
-    await tester.pumpWidget(const GymManeApp());
+    await tester.pumpWidget(const MDGymApp());
     await tester.pumpAndSettle();
 
     await tester.tap(find.text(t.filters));

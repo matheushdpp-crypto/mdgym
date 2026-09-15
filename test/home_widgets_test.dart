@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/theme/app_colors.dart';
-import 'package:gymmane/widgets/home_widget_views.dart';
+import 'package:mdgym/theme/app_colors.dart';
+import 'package:mdgym/widgets/home_widget_views.dart';
 
 void main() {
   Future<void> draw(WidgetTester tester, Widget view) async {

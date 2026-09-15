@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/catalog/program_templates.dart';
-import 'package:gymmane/models/live_session.dart';
-import 'package:gymmane/models/workout.dart';
-import 'package:gymmane/services/local_store.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:mdgym/catalog/program_templates.dart';
+import 'package:mdgym/models/live_session.dart';
+import 'package:mdgym/models/workout.dart';
+import 'package:mdgym/services/local_store.dart';
+import 'package:mdgym/state/fit_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {

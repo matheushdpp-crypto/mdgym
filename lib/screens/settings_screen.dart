@@ -29,7 +29,7 @@ import '../widgets/profile_avatar.dart';
 import 'profile_screen.dart';
 import '../widgets/ui_kit.dart';
 
-const _kRepoUrl = 'https://github.com/InlitX/GymMane';
+const _kRepoUrl = 'https://github.com/matheushdpp-crypto/mdgym';
 const _kBugUrl = '$_kRepoUrl/issues/new?labels=bug';
 const _kFeatureUrl = '$_kRepoUrl/issues/new?labels=enhancement';
 const _kKofiUrl = 'https://ko-fi.com/inlitx';
@@ -217,7 +217,7 @@ class SettingsScreen extends StatelessWidget {
             ]),
             const SizedBox(height: 22),
             _linkGroup(gc, [
-              (PhosphorIconsRegular.info, t.aboutGymmane, fit.goAbout),
+              (PhosphorIconsRegular.info, t.aboutMDGym, fit.goAbout),
             ]),
           ],
         ),
@@ -296,11 +296,11 @@ class SettingsScreen extends StatelessWidget {
     }
     final dir = await getTemporaryDirectory();
     final stamp = DateTime.now().toIso8601String().split('T').first;
-    final file = File('${dir.path}/gymmane-workouts-$stamp.csv');
+    final file = File('${dir.path}/mdgym-workouts-$stamp.csv');
     await file.writeAsString(fit.exportCsv());
     if (!context.mounted) return;
     await SharePlus.instance.share(
-      ShareParams(files: [XFile(file.path)], subject: 'GymMane workouts'),
+      ShareParams(files: [XFile(file.path)], subject: 'MDGym workouts'),
     );
   }
 
@@ -319,11 +319,11 @@ class SettingsScreen extends StatelessWidget {
   Future<void> _exportBackup(BuildContext context) async {
     final dir = await getTemporaryDirectory();
     final stamp = DateTime.now().toIso8601String().split('T').first;
-    final file = File('${dir.path}/gymmane-backup-$stamp.zip');
+    final file = File('${dir.path}/mdgym-backup-$stamp.zip');
     await file.writeAsBytes(await buildBackupZip(), flush: true);
     if (!context.mounted) return;
     await SharePlus.instance.share(
-      ShareParams(files: [XFile(file.path)], subject: 'GymMane backup'),
+      ShareParams(files: [XFile(file.path)], subject: 'MDGym backup'),
     );
   }
 
@@ -595,7 +595,7 @@ class SettingsScreen extends StatelessWidget {
         return;
       }
       await HomeWidget.requestPinWidget(
-          qualifiedAndroidName: 'com.gymmane.app.$provider');
+          qualifiedAndroidName: 'com.mdgym.app.$provider');
     } catch (_) {
       if (context.mounted) _snack(context, t.pinUnsupported);
     }

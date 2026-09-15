@@ -71,3 +71,9 @@ site/
 # OS junk
 Thumbs.db
 desktop.ini
+
+# Flutter SDK fetched by the Vercel build
+.flutter-sdk/
+
+# Vercel
+.vercel/
